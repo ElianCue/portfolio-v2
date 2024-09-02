@@ -1,6 +1,6 @@
 const InitialScreen = () => {
   return (
-    <section className="container grid grid-col-2 grid-flow-col gap-x-40 justify-center m-auto content-center items-center w-svw mt-20 h-[50vh] ">
+    <section className="container flex justify-center m-auto content-center items-center w-screen ">
       <article className="flex justify-center flex-col ">
         <div className="text-extrabold">
           <span className="text-lg">Hola! soy</span>
