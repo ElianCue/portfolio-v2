@@ -8,7 +8,7 @@ import NavLink from './components/NavLink'
 function App() {
 
   return (
-    <main className='relative w-full font-sans bg-background text-text-primary flex flex-col space-y-52 '>
+    <main className=' m-auto relative w-full font-sans bg-background text-text-primary flex flex-col space-y-48 '>
       <NavBar />
        <NavLink /> 
       <InitialScreen />

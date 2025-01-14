@@ -2,9 +2,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const ProjectCard = ({ cardImage, cardDescription, cardTechnology, link_deploy, link_github }) => {
+const ProjectCard = ({ cardImage, cardDescription, cardTechnology, link_deploy, link_github, cardTitle }) => {
   return (
-    <div className="w-80 h-96 rounded overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:scale-105 bg-surface hover:cursor-pointer">
+    <div className="w-80 h-96 rounded overflow-hidden container shadow-lg shadow-surface hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:scale-105 bg-surface hover:cursor-pointer">
       <div className="h-40">
         <img src={cardImage} alt="Project" className="w-full h-full object-cover" />
       </div>
@@ -13,7 +13,7 @@ const ProjectCard = ({ cardImage, cardDescription, cardTechnology, link_deploy, 
           {cardTechnology.map((tech) => (
             <li
               key={tech.id}
-              className="text-[10px] font-semibold bg-text-primary text-surface py-1 px-3 mt-1 rounded-full"
+              className="text-[10px] font-semibold bg-text-primary text-surface py-1 px-3 my-1 rounded-full"
             >
               {tech.title}
             </li>

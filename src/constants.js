@@ -1,4 +1,4 @@
-import { faBootstrap, faCss3Alt, faGitAlt, faHtml5, faJs, faNodeJs, faPython, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faBootstrap, faCss3Alt, faGitAlt, faHtml5, faJs, faNodeJs, faPython, faReact, faSass } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -12,7 +12,7 @@ export const SKILLS_FAVICON = [
     { name: 'SQL', icon: faDatabase},
     { name: 'Nodejs', icon: faNodeJs},
     { name: 'Git', icon: faGitAlt},
-    
+    { name: 'Sass', icon: faSass},
   ];
 
   export const MY_PROJECTS = [
@@ -74,20 +74,8 @@ export const SKILLS_FAVICON = [
     },
     {
       id: 4,
-      title: 'Tic Tac Toe',
-      description: 'Juego de Tic Tac Toe hecha con react, con el curso de Midudev, en el cual se emplean los diferentes hooks y el uso de componentes en React',
-      link_github: "https://github.com/ElianCue",
-      link_deploy: "/",
-      image: "../src/assets/images/proyectos/Captura de pantalla 2024-09-01 213318.jpg",
-      technologies: [
-        { id: 1, title: 'React' },
-        { id: 2, title: 'Javascript' }
-      ]
-    },
-    {
-      id: 4,
-      title: 'Tic Tac Toe',
-      description: 'Juego de Tic Tac Toe hecha con react, con el curso de Midudev, en el cual se emplean los diferentes hooks y el uso de componentes en React',
+      title: 'Todo App TS',
+      description: 'TODO APP hecha con react, con el curso de Midudev, en el cual se emplean los diferentes hooks y el uso de componentes en React',
       link_github: "https://github.com/ElianCue",
       link_deploy: "/",
       image: "../src/assets/images/proyectos/Captura de pantalla 2024-09-01 213318.jpg",
